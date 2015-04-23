@@ -1,0 +1,8 @@
+title Schaye reproduction Corlies April 2015
+hden  0
+stop column density = 10.5
+table HM05 redshift=3.0
+metals -1 log
+iterate to convergence
+save physical conditions last ".physcond"
+

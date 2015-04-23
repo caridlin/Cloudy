@@ -1,0 +1,18 @@
+title density intensity dependancy, S. Quiret PhD
+table HM05, z=0, f=1
+constant temperature, t=4 vary
+grid 3 7 .1
+hden -2
+stop zone 1
+iterate to convergence
+save grid "grid.grd", no hash
+save line emissivity last, "lines.em", no hash
+H__1_1215.68A
+H__1_6562.85A
+C__4_1548.19A
+C__4_1550.78A
+O__6_1031.91A
+O__6_1037.62A
+C__2_1334.53A
+C__3_977
+end of lines
